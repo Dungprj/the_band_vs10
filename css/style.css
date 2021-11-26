@@ -3,10 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
 
 /*common
 
@@ -398,7 +394,7 @@ html{
 
 
 
-.modal {
+.modal { 
     position:fixed;
     top: 0;
     right: 0;

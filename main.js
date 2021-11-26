@@ -1,5 +1,5 @@
 let getElement_Buy_Ticket = document.querySelectorAll('.btn-buy-ticket');
-let getElement_modal = document.querySelector('#modal');
+let getElement_modal = document.querySelector('.modal');
 let getElement_close = document.querySelector(".close-modal");
 let getElement_modalcontainer = document.querySelector(".modal-container")
 let mobile_menu = document.querySelector("#mobile-menu")
@@ -40,9 +40,9 @@ getElement_Buy_Ticket.forEach(function(obj){
 
     })
    
-// getElement_close.addEventListener('click',close_modal)
+getElement_close.addEventListener('click',close_modal)
 
-// getElement_modal.addEventListener("click",close_modal);
+getElement_modal.addEventListener("click",close_modal);
 
 
 getElement_modalcontainer.addEventListener('click',function(event){
